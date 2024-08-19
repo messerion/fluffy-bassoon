@@ -5,5 +5,6 @@ b=sum(grades[1])/len(grades[1])
 j=sum(grades[2])/len(grades[2])
 s=sum(grades[3])/len(grades[3])
 k=sum(grades[4])/len(grades[4])
-students={'Aaron':a,'Bilbo':b,'Johnny':j,'Khendrik':s,'Steve':k}
-print(students)
+st=sorted(students)
+students_={st[0]:a,st[1]:b,st[2]:j,st[3]:s,st[4]:k}
+print(students_)
